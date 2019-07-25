@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+
+
+
+header {
+	width: 100%;
+	height: 150px;
+	background-color: #5E299A;
+}
+header .container {
+	position: relative;
+}
+header .header-black {
+	background-color: #000;
+	height: 40px;
+}
+header .header-black li {
+	background-image: url("../img/clubs.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 4px;
+}
+header .header-black li.club-01 {
+	background-position: 0px 0px;
+}
+header .header-black li.club-02 {
+	background-position: -48px 0px;
+}
+header .header-black li.club-03 {
+	background-position: -95px 0px;
+}
+header .header-black li.club-04 {
+	background-position: -140px 0px;
+}
+header .header-black li.club-05 {
+	background-position: -189px 0px;
+}
+header .header-black li.club-06 {
+	background-position: -239px 0px;
+}
+header .header-black li.club-07 {
+	background-position: -288px 0px;
+}
+header .header-black li.club-08 {
+	background-position: -334px 0px;
+}
+header .header-black li.club-09 {
+	background-position: -381px 0px;
+}
+header .header-black li.club-10 {
+	background-position: -429px 0px;
+}
+header .header-black li.club-11 {
+	background-position: -478px 0px;
+}
+header .header-black li.club-12 {
+	background-position: -527px 0px;
+}
+header .header-black li.club-13 {
+	background-position: -579px 0px;
+}
+header .header-black li.club-14 {
+	background-position: -629px 0px;
+}
+header .header-black li.club-15 {
+	background-position: -671px 0px;
+}
+header .header-black li.club-16 {
+	background-position: -719px 0px;
+}
+
+header .header-black li.club-17 {
+	background-position: -763px 0px;
+}
+
+header .header-black li.club-18 {
+	background-position: -808px 0px;
+}
+
+header .header-black li.club-19 {
+	background-position: -853px 0px;
+}
+
+header .header-black li.club-20 {
+	background-position: -900px 0px;
+}
+
+header .header-black li.club-21 {
+	background-position: -950px 0px;
+}
+
+header .header-black li.club-22 {
+	background-position: -1000px 0px;
+}
+
+header .header-black li a {
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+
+header #logotipo {
+	position: absolute;
+	top: -30px;
+}
+
+#menu li {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	margin: 35px;
+	font-family: "OpenSans";
+}
