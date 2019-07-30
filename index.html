@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Orlando City</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"><!--font awesome-->
 		<link rel="stylesheet" href="css/orlando.css">
 
 	</head>
@@ -57,8 +58,13 @@
 							<li><a href="#">Tickets</a></li>
 							<li><a href="#">News</a></li>
 							<li><a href="#">Schedule</a></li>
-							<li>
-								<input type="search" placeholder="search...">
+							<li class="search">
+								<div class="input-group">
+							      <input type="search" placeholder="search">
+							      <span class="input-group-btn">
+							        <button class="" type="button"><i class="fa fa-search"></i></i></button>
+							      </span>
+							    </div><!-- /input-group -->
 							</li>
 						</ul>
 					</nav>
@@ -67,9 +73,60 @@
 
 			</div>
 			
-			
+		
 
 		</header>
+
+		<section>
+
+			<div id="banner">
+
+				<h1>Orlando City<small>Orlando City Soccer Club</small></h1>
+
+			</div><!--div banner-->
+			<!--Noticias-->
+			<div id="news" class="container">
+
+				<div class="row">
+					<h2>latest news</h2>
+					<hr>
+				</div>
+
+				<div class="row thumbneils">
+
+					<div class="col-md-3"> <!--Gryd System Boostrap-->
+
+						<img src="img/noticia-thumb.jpg" alt="Noticia">
+						<h3>Goleiro se prepara para novos testes de penaltes</h3>
+						<time>21 Janeiro, 2019</time>
+						
+					</div>
+					<div class="col-md-3">
+
+						<img src="img/noticia-thumb.jpg" alt="Noticia">
+						<h3>Goleiro se prepara para novos testes de penaltes</h3>
+						<time>21 Janeiro, 2019</time>
+
+					</div>
+					<div class="col-md-3">
+
+						<img src="img/noticia-thumb.jpg" alt="Noticia">
+						<h3>Goleiro se prepara para novos testes de penaltes</h3>
+						<time>21 Janeiro, 2019</time>
+
+					</div>
+					<div class="col-md-3">
+
+						<img src="img/noticia-thumb.jpg" alt="Noticia">
+						<h3>Goleiro se prepara para novos testes de penaltes</h3>
+						<time>21 Janeiro, 2019</time>
+						
+					</div>
+				</div>
+				
+			</div><!--Div News-->
+
+		</section>
 
 		<script src="lib/jquery/jquery.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>

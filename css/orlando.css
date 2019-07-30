@@ -4,6 +4,13 @@
 	font-size: 1em;
 }
 
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+
+
 
 
 
@@ -12,7 +19,9 @@
 header {
 	width: 100%;
 	height: 150px;
-	background-color: #5E299A;
+	background-color: rgba(94, 41, 154, .8); /*transparencia do cabeçalho*/
+	z-index: 2; /*coloca o cabeçalho na frente da imagem seção section*/
+	position: relative;
 }
 header .container {
 	position: relative;
@@ -103,15 +112,115 @@ header #logotipo {
 	top: 20px;
 }
 #menu {
-	margin: 26px 0;
+	margin: 12px 0;
 }
 #menu li {
 	display: inline-block;
 	font-family: "OpenSans";
 }
+#menu li.search {
+	width: 182px;
+}
+#menu li.search input {
+	background-color: #5C2D90;
+	color: #fff;
+	border: none;
+	height: 30px;
+	line-height: 30px;
+}
+
+#menu li.search ::-webkit-input-placeholder {
+	color: #fff;	
+}
+
+#menu li.search button {		/*modificações de acesso a caixa de pequisa */
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px;
+	top: 3px;
+}
+
+#menu li.search button i {		/*icone dentro da pesquisa*/
+	font-size: 20px;
+	color: rgba(255, 255, 255, .5);
+}
+
 #menu li a {
 	color: #FFF;
 	font-size: 16px;
 	padding: 10px 25px;
 	font-weight: bold;
 }
+
+#menu li.search .input-group {
+	top: 8px;
+}
+
+#banner {
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background: url(../img/banner.jpg) no-repeat;
+	background-position: 0px -100px;				/*ajuste da imagem, subindo ela para atraz da header*/
+	top: -110px;
+}
+
+#banner h1 {
+	color: #fff;
+	top: 300px;
+	position: relative;
+	font-size: 92px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'OpenSans-Light';
+	margin-left: 50px;
+
+}
+
+#banner h1 small {
+	font-size: 32px;
+	display: block; 								/*se comporta igual ao uma div linha*/
+	color: #fff;
+	font-family: 'OpenSans-Light';
+	font-weight: bold;
+}
+
+#news {
+	position: relative;
+	top: -110px;
+}
+
+#news h2 {
+	color: #5e2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase; 						/*text masculo*/
+	text-align: center;
+}
+
+#news hr {
+	border: #FDE192 solid 2px;
+	width: 200px;
+	margin: 0 auto; 								/*centraliza o elemento*/
+	
+}
+
+#news .thumbneils {
+	margin-top: 80px;
+}
+
+#news .thumbneils h3 {
+	color: #5e299a;
+	font-size: 18px;
+	font-family: 'OpenSans-Light';
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#news .thumbneils time {
+	color: #A7A7A7;
+	font-size: 18px;
+	font-family: 'OpenSans-Light';
+
+}
+
